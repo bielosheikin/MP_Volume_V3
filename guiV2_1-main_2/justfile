@@ -1,0 +1,10 @@
+set shell := ["cmd.exe", "/c"]
+
+setup:
+	pip install -r requirements.txt
+simulate:
+	streamlit run main.py
+
+simulate-headless:
+	streamlit run main.py --server.headless=true
+
