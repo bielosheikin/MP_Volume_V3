@@ -1,0 +1,18 @@
+Time:
+  T: 10
+  dt: 0.001
+G:
+  ASOR: 0.00008
+  TPC: 2.0e-06
+  K: 0.0
+  CLC: 1.0e-06
+  NHE: 0.0
+  vATPase: 8.0e-09
+  H_leak: 1.6e-08
+ASOR:
+  pH_dep: wt
+  U_dep: true
+Other:
+  CLC_dep: true
+  Cl_i: high
+
