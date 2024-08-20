@@ -26,7 +26,7 @@ class VesicleConfig:
 
 
 class Vesicle(Trackable):
-    TRACKABLE_FIELDS = ('pH', 'volume', 'area', 'capacitance', 'charge')
+    TRACKABLE_FIELDS = ('pH', 'volume', 'area', 'capacitance', 'charge', 'voltage')
 
     def __init__(self,
                  *,
